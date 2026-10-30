@@ -1,6 +1,7 @@
 # SimplePing
 
-Swift implementation (with Foundation however) of SimplePing.
+A Swift implementation of `SimplePing` using Foundation.
 
-This code have a memory leakage issue with CFHost. Any help is appreciated.
-If host resolution step is removed, memory issue is gone too.
+The current implementation has a memory leak related to `CFHost` during hostname resolution. Removing the host-resolution step eliminates the leak.
+
+Contributions, fixes, and suggestions for resolving the `CFHost` memory issue are welcome.
